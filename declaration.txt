@@ -1,0 +1,7 @@
+# sign "LBCTF" (sign with sha1) and hash the bigint with sha256, and wrap with LBCTF{}
+
+# if your computed signature starts with 424 you're on the right track
+
+p = 0xb20694b57dc3453469b93bcf0fe1dc82fad6132b69b52780eeaa952919bc5fe5
+q = 0xc98aa2cb7c54ac3f78dd7eed4817b1d96d1a7e03cc44be5db0cf764eb6ed33a5
+e = 0x10001
